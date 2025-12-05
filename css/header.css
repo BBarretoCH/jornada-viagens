@@ -1,12 +1,18 @@
 header {
+  align-items: center;
   background-color: var(--background-tertiary);
-  height: 138px;
-  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 38px 48px;
+}
+
+nav {
+  display: none;
 }
 
 .logo {
   display: inline-block;
   height: 64px;
-  margin: 37px 0 0 48px;
   width: 68px;
 }
