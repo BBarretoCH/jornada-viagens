@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     --background-primary: #ffffff; /*site*/
     --background-secondary: #f5f5f5; /*componentes*/
@@ -8,6 +15,11 @@
 
     --text-primary-color: #222222;
     --text-secondary-color: #ffffff;
+
+    --font-primary: 'Montserrat', sans-serif;
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
 }
 
 body, img, h1, p, fieldset, legend, input, button, select, textarea, label {
