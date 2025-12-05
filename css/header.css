@@ -11,6 +11,10 @@ nav {
   display: none;
 }
 
+input[type="checkbox"]:checked ~ nav{
+  display: block;
+}
+
 .logo {
   display: inline-block;
   height: 64px;
