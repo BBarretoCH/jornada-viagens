@@ -25,6 +25,7 @@ nav {
   color: var(--text-secondary-color);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
+  margin: 16px 0;
 }
 
 input[type='checkbox']:checked ~ nav {
@@ -40,4 +41,30 @@ input[type='checkbox']:checked ~ nav {
   display: inline-block;
   height: 64px;
   width: 68px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-links {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 467px;
+  }
+  
+  .list-links li {
+    margin: 0;
+  }
+
+  .navigation-menu {
+    margin-top: 0;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+  }
 }
