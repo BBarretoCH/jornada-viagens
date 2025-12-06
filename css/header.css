@@ -5,14 +5,35 @@ header {
   flex-direction: row;
   justify-content: space-between;
   padding: 38px 48px;
+  position: relative;
 }
 
 nav {
   display: none;
 }
 
-input[type="checkbox"]:checked ~ nav{
+.list-links {
+  list-style: none;
+  color: var(--text-secondary-color);
+}
+
+.list-links li {
+  margin: 16px 0;
+}
+
+.list-links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  font-weight: var(--menu-text-weight);
+}
+
+input[type='checkbox']:checked ~ nav {
+  background-color: var(--background-tertiary);
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
 }
 
 .logo {
