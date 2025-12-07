@@ -1,3 +1,10 @@
+.categories-cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .card {
   color: var(--text-primary-color);
   background-color: var(--background-secondary);
@@ -7,8 +14,8 @@
   width: 312px;
 }
 
-.card p {
-  margin-bottom: 41px;
+.card h3 {
+  margin: 0 auto 41px;
   font-size: 28px;
   font-weight: var(--title-weight);
 }
@@ -20,17 +27,31 @@
   margin: 41px auto 24px;
 }
 
-.card .plane {
+.card .plane,
+.card .hiking {
   margin: 24px auto;
 }
 
-@media screen and (min-width: 1024px) {
-    .card {
-        height: 220px;
-        width: 234px;
-    }
 
-    .card .hiking {
-        margin: 24px auto;
-    }
+@media screen and (min-width: 768px) {
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
+
+@media screen and (min-width: 1024px) {
+  .card {
+    height: 220px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    height: 220px;
+    width: 300px;
+  }
+}
+
