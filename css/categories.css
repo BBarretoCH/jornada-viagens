@@ -1,0 +1,36 @@
+.card {
+  color: var(--text-primary-color);
+  background-color: var(--background-secondary);
+  height: 220px;
+  padding: 0;
+  text-decoration: none;
+  width: 312px;
+}
+
+.card p {
+  margin-bottom: 41px;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.card img {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  margin: 41px auto 24px;
+}
+
+.card .plane {
+  margin: 24px auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        height: 220px;
+        width: 234px;
+    }
+
+    .card .hiking {
+        margin: 24px auto;
+    }
+}
