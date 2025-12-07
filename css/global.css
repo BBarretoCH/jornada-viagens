@@ -49,7 +49,7 @@ body {
   color: var(--background-secondary);
   display: inline-block;
   font-size: 20px;
-  font-weight: var(--text-weight);
+  font-weight: var(--title-weight);
   height: 64px;
   line-height: 64px;
   text-decoration: none;
