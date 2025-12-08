@@ -38,9 +38,24 @@ label {
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   color: var(--text-primary-color);
   font-family: var(--font-primary);
+}
+
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
+section.hero {
+  width: 100%;
+  margin: 0;
 }
 
 .button {
@@ -72,13 +87,26 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  section {
+    width: 648px;
+  }
+
   .section-title h2 {
     font-size: 32px;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  section {
+    width: 970px;
+  } 
   .button:hover {
     background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }
