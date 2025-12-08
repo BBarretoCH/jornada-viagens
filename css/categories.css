@@ -1,3 +1,7 @@
+.categories {
+  margin-bottom: 88px;
+}
+
 .categories-cards {
   align-items: center;
   display: flex;
@@ -5,11 +9,14 @@
   gap: 24px;
 }
 
-.card {
+.categories-cards .card {
   color: var(--text-primary-color);
   background-color: var(--background-secondary);
+  border-radius: 16px;
+  box-sizing: border-box;
   height: 220px;
   padding: 0;
+  text-align: center;
   text-decoration: none;
   width: 312px;
 }
@@ -32,6 +39,9 @@
   margin: 24px auto;
 }
 
+.card .h3-composto {
+  margin: 0 auto 21px;
+}
 
 @media screen and (min-width: 768px) {
   .categories-cards {
@@ -42,16 +52,26 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
+  .categories {
+    margin-bottom: 104px;
+  }
+
+  .categories-cards .card {
     height: 220px;
-    width: 450px;
+    width: 472px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card {
+  .categories-cards .card {
     height: 220px;
-    width: 300px;
+    width: 283px;
   }
 }
 
+@media screen and (min-width: 1960px) {
+  .categories-cards .card {
+    height: 220px;
+    width: 390px;
+  }
+}
