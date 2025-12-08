@@ -1,5 +1,6 @@
 .destinations {
   width: 100%;
+  margin-bottom: 104px;
 }
 
 .destinations-itens {
@@ -68,6 +69,23 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .destinations-itens {
+    width: 968px;
+  }
+
+  .destinations-itens .item .img-item {
+    width: 967px;
+  }
+  .destinations-itens .item .tokyo {
+    background: url('../img/Tokyo-1024.jpg') center / cover no-repeat;
+  }
+
+  .destinations-itens .item .osaka {
+    background: url('../img/Osaka-1024.jpg') center / cover no-repeat;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .destinations-itens {
     display: flex;
@@ -77,6 +95,7 @@
     justify-content: center;
     width: 1200px;
   }
+
   .destinations-itens .item .img-item {
     height: 452px;
     width: 588px;
@@ -87,9 +106,11 @@
   .destinations-itens {
     width: 1645px;
   }
+
   .destinations-itens .item .img-item {
     width: 810px;
   }
+
   .destinations-itens .item .tokyo {
     background: url('../img/Tokyo-1920.jpg') center / cover no-repeat;
   }
