@@ -1,0 +1,87 @@
+.categories {
+  margin-bottom: 88px;
+}
+
+.categories .section-title {
+    width: 312px;
+    margin: 0 auto;
+}
+
+.categories-cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.categories-cards .card {
+  color: var(--text-primary-color);
+  background-color: var(--background-secondary);
+  border-radius: 16px;
+  box-sizing: border-box;
+  height: 220px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 312px;
+}
+
+.card h3 {
+  margin: 0 auto 41px;
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.card img {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  margin: 41px auto 24px;
+}
+
+.card .plane,
+.card .hiking {
+  margin: 24px auto;
+}
+
+.card .h3-composto {
+  margin: 0 auto 21px;
+}
+
+@media screen and (min-width: 768px) {
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .categories .section-title {
+    width: 100%;
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .categories {
+    margin-bottom: 104px;
+  }
+
+  .categories-cards .card {
+    height: 220px;
+    width: 472px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .categories-cards .card {
+    height: 220px;
+    width: 283px;
+  }
+}
+
+@media screen and (min-width: 1960px) {
+  .categories-cards .card {
+    height: 220px;
+    width: 390px;
+  }
+}

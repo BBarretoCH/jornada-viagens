@@ -1,4 +1,8 @@
-.card {
+.offers {
+  margin-bottom: 88px;
+}
+
+.offers-cards .card {
   border-radius: 16px;
   box-sizing: border-box;
   color: var(--text-secondary-color);
@@ -72,7 +76,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
+  .offers-cards .card {
     width: 420px;
     height: 308px;
   }
@@ -86,15 +90,20 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .offers-cards .card {
+    width: 470px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers-cards .card {
     width: 588px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  .offers-cards {
-    margin: 0 auto;
-    width: 1325px;
+  .offers-cards .card {
+    width: 800px;
   }
 }
