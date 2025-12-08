@@ -79,7 +79,7 @@
   }
 }
 
-@media screen and (min-width: 1960px) {
+@media screen and (min-width: 1920px) {
   .categories-cards .card {
     height: 220px;
     width: 390px;
