@@ -1,7 +1,100 @@
+.destinations {
+  width: 100%;
+}
+
+.destinations-itens {
+  width: 312px;
+  margin: 0 auto;
+}
 .destinations .item header {
   background-color: transparent;
   display: block;
   margin-bottom: 24px;
   padding: 0;
   position: static;
+}
+
+.destinations-itens .item h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 24px 0;
+}
+
+.destinations-itens .item p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 2;
+  margin: 24px 0;
+}
+
+.destinations-itens .item a {
+  text-align: center;
+  margin-bottom: 40px;
+  width: 312px;
+}
+
+.destinations-itens .item .img-item {
+  height: 360px;
+  margin: 0 auto;
+  width: 312px;
+}
+
+.destinations-itens .item .tokyo {
+  background: url('../img/Tokyo-mobile.jpg') center / cover no-repeat;
+}
+
+.destinations-itens .item .osaka {
+  margin: 0 auto;
+  height: 360px;
+  width: 312px;
+  background: url('../img/Osaka-mobile.jpg') center / cover no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-itens {
+    width: 648px;
+  }
+  .destinations-itens .item .img-item {
+    height: 452px;
+    width: 648px;
+  }
+
+  .destinations-itens .item .tokyo {
+    background: url('../img/Tokyo-tablet-desk.jpg') center / cover no-repeat;
+  }
+
+  .destinations-itens .item .osaka {
+    background: url('../img/Osaka-tablet-desk.jpg') center / cover no-repeat;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations-itens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+    justify-content: center;
+    width: 1200px;
+  }
+  .destinations-itens .item .img-item {
+    height: 452px;
+    width: 588px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .destinations-itens {
+    width: 1645px;
+  }
+  .destinations-itens .item .img-item {
+    width: 810px;
+  }
+  .destinations-itens .item .tokyo {
+    background: url('../img/Tokyo-1920.jpg') center / cover no-repeat;
+  }
+
+  .destinations-itens .item .osaka {
+    background: url('../img/Osaka-1920.jpg') center / cover no-repeat;
+  }
 }

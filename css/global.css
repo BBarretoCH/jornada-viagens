@@ -38,6 +38,11 @@ label {
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   color: var(--text-primary-color);
   font-family: var(--font-primary);
