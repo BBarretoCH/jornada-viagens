@@ -7,15 +7,10 @@
 }
 
 .destinations-itens .item h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
   margin: 24px 0;
 }
 
 .destinations-itens .item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  line-height: 2;
   margin: 24px 0;
 }
 
