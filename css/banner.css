@@ -1,0 +1,22 @@
+.banner {
+    margin: 0;
+    width: 100%; 
+}
+.banner-img {
+    height: 400px;
+    background: url('../img/banner-mobile.png') no-repeat center / cover;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-img {
+    background: url('../img/banner-tablet.png') no-repeat center / cover;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .banner-img {
+    background: url('../img/banner-desktop.png') no-repeat center / cover;
+    height: 600px;
+  }
+}
