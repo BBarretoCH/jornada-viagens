@@ -49,9 +49,14 @@
 
   .payments .content-container .image-gallery {
     width: 790px;
+    margin: 0;
   }
 
   .payments .content-container .text-content {
     width: 361px;
+  }
+
+  .payments .content-container .text-content .content-title {
+    margin: 0;
   }
 }
