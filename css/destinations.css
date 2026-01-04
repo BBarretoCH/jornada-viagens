@@ -6,7 +6,7 @@
   position: static;
 }
 
-.destinations-itens .item h4 {
+.destinations-itens .item h3 {
   margin: 24px 0;
 }
 
@@ -88,10 +88,7 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
-  .destinations-itens {
-    width: 1645px;
-  }
+/*@media screen and (min-width: 1920px) {
 
   .destinations-itens .item .img-item {
     width: 810px;
@@ -104,4 +101,4 @@
   .destinations-itens .item .osaka {
     background: url('../img/Osaka-1920.jpg') center / cover no-repeat;
   }
-}
+}*/
